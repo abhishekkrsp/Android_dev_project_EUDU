@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".wantToRead"
+    android:background="#7f870e">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#000000">
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvCompany"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/company"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvrpm"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rpm"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvp_rating"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p_rating"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvVolts"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/volts"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvAmps"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amps"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvEncl"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/encl"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvIns_cl"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ins_cl"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvMfg_year"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mfg_year"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvAmb_temp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amb_temp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#7f870e"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:id="@+id/tvDuty"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/duty"
+                    android:textAlignment="center"
+                    android:textColor="#7f870e"
+                    android:textStyle="bold"
+                    android:layout_margin="7dp"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context=".wantToRead">-->
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView11"-->
+<!--        android:layout_width="334dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="@string/textviiew"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.506"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView14"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.493"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView11" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView15"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.506"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView14" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView16"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.513"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView15" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView17"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.518"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView16" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView18"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.506"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView17" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView19"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.501"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView18" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView20"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.501"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView19" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView21"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.501"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView20" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView22"-->
+<!--        android:layout_width="330dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="@string/textview"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.518"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView21"-->
+<!--        app:layout_constraintVertical_bias="0.175" />-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

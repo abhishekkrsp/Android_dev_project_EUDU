@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#080707"
+    android:textColor="#f5f5f5"
+    android:layout_margin="0.2dp">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvCompany"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/company"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvrpm"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rpm"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvp_rating"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/p_rating"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvVolts"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/volts"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvAmps"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/amps"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvEncl"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/encl"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvIns_cl"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ins_cl"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvMfg_year"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mfg_year"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvAmb_temp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/amb_temp"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tvDuty"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/duty"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168719713962",
+    "project_id": "eudu-4f3eb",
+    "storage_bucket": "eudu-4f3eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168719713962:android:94c3a3d4b6cfc48f8072d3",
+        "android_client_info": {
+          "package_name": "com.example.eudu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168719713962-df4r166rpjrtuuvnlq1ik1dpggfcoqg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5poZgpzMUFstUuKn7i2aJsatNVmEbVmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168719713962-df4r166rpjrtuuvnlq1ik1dpggfcoqg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
